@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link rel="stylesheet" type="text/css" href="cal.css"> -->
+	<link rel="stylesheet" type="text/css" href="calci.css">
+	<title></title>
+</head>
+<body>
+	<div id = "calculator">
+		<div id = "calcu-head">
+			<p>CALCULATOR</p>
+		</div>
+		<div id = "display_box">
+			<div id = "box">
+			<p id ="display"></p>
+			</div>
+		</div>
+		<div id = "all_value">
+
+		<div class="button color a" data-value ="clear">
+			<span>C</span>
+		</div><div class="button a" data-value ="p-m">
+				<span>+/-</span>
+		</div><div class="button a" data-value ="%">
+			<span>%</span>
+		</div><div class="button a" data-value ="del">
+			<span>Del</span>
+		</div><div class="button a" data-value ="7">
+			<span>7</span>
+		</div><div class="button a" data-value ="8">
+			<span>8</span>
+		</div><div class="button a" data-value ="9">
+			<span>9</span>
+		</div><div class="button color2 a" data-value ="/">
+			<span>/</span>
+		</div><div class="button a" data-value ="4">
+			<span>4</span>
+		</div><div class="button a" data-value ="5">
+			<span >5</span>
+		</div><div class="button a" data-value ="6">
+			<span>6</span>
+		</div><div class="button color2 a" data-value ="*">
+			<span>*</span>
+		</div><div class="button a" data-value ="1">
+			<span>1</span>
+		</div><div class="button a" data-value ="2">
+			<span>2</span>
+		</div><div class="button a" data-value ="3">
+			<span>3</span>
+		</div><div class="button color2 a" data-value ="-">
+			<span>-</span>
+		</div><div class="button a" data-value ="0">
+			<span>0</span>
+		</div><div class="button a" data-value =".">
+			<span>.</span>
+		</div><div class="button color a" data-value ="=">
+			<span>=</span>
+		</div><div class="button color2 a" data-value ="+">
+			<span>+</span>
+		</div>
+
+
+	</div>
+		
+	</div> 
+
+	<script src="calci.js"></script>
+</body>
+</html>
