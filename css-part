@@ -7,7 +7,7 @@
     /* height: 421px; */
     /* background-color: grey; */
     border: 15px solid grey;
-    margin :100px;
+    margin :auto;
     /*padding-top: 100px;*/
 }
 
@@ -26,6 +26,7 @@
 	color: blue;
 	margin :2%;
 	margin-left: 1%;
+	overflow: hidden;
 
 }
 #calcu-head{
@@ -52,7 +53,9 @@
 
 
 }
-
+.over{
+	overflow: hidden;
+}
 #box{
 	height: 20%;
 	border: 1px;
@@ -63,6 +66,7 @@
 	display: inline-block;
 	margin-left: 1%;
 	/* margin-top: -%; */
+	overflow: hidden;
 
 
 }
