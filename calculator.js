@@ -16,7 +16,7 @@ for (var i = 0; i <buttons.length; i++)
 		else if(value == '+' )
 		{
 			operator ='+';
-			operand1 = parseFloat(display.textContent);//see this is where u displaying  no? i am putting the no. in the operand 1 after the operator so that i can use tha
+			operand1 = parseFloat(display.textContent);
 			display.textContent = "";
 
 		}else if(value == 'clear')
@@ -58,13 +58,10 @@ for (var i = 0; i <buttons.length; i++)
 			}
 			else
 			{
-			operand1 = parseFloat(display.textContent);////canwe keep things shrt dont type o long 
+			operand1 = parseFloat(display.textContent);
 			display.textContent = "";
 			}
-			// so herewhere are u writing for disp of operstors
-			//not displaying but storing in the operand1 the + or - u storing in operND1? you hhave to call me 
-			// u said operator is not dispalying no where is code for display og operators
-			//yes i havent displayed operator but eval is also not working my code is wrong i need to understand how to make it work
+			
 		}else if(value == '*')
 		{
 			operator ='*';
